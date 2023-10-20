@@ -3,12 +3,11 @@
 using namespace std;
 
 int findcross(int[][10]);
-bool checkup(int[][10], int, int);
-bool checkdown(int[][10], int, int);
-bool checkleft(int[][10], int, int);
-bool checkright(int[][10], int, int);
 void printout(int[][10], int);
 
+int findcross(int M[][10])
+{
+}
 void printout(int M[][10], int cnt)
 {
 	for (int i = 0; i < 10; i++)
@@ -18,20 +17,4 @@ void printout(int M[][10], int cnt)
 		cout << endl;
 	}
 	cout << "Total found cross " << cnt << endl;
-}
-
-int findcross(int M[][10])
-{
-}
-bool checkup(int M[][10], int i, int j)
-{
-}
-bool checkdown(int M[][10], int i, int j)
-{
-}
-bool checkleft(int M[][10], int i, int j)
-{
-}
-bool checkright(int M[][10], int i, int j)
-{
 }
